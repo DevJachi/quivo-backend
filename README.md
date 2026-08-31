@@ -99,6 +99,7 @@ To improve performance and responsiveness, the following architectural changes a
 - Decouple heavy computation from the main HTTP request lifecycle
 - Introduce **WebSocket-based communication** between the backend and frontend
 - Notify the frontend in real time once background processing is complete
+- Caching the title and location as a key value pair so if someone looks for the same role and are in the same location they get responses quicker.
 
 This approach will:
 - Reduce perceived latency
